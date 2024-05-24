@@ -31,7 +31,7 @@ echo "
 
             <input 
             type=text 
-                name=nama_pembeli
+                name= nama_pembeli
                 placeholder='nama pembeli'
                 required
                 minlength=3
@@ -40,7 +40,7 @@ echo "
 
             <input 
             type=text 
-                name=nomor_whatsapp
+                name= nomor_whatsapp
                 placeholder='Nomor WhatsApp'
                 required
                 minlength=10
@@ -52,7 +52,7 @@ echo "
                 type=number 
                 min=1 
                 max=999 
-                name=jumlah_pesanan
+                name= jumlah_pesanan
                 placeholder='Jumlah Pesanan'
                 value=1
             >

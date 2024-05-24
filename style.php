@@ -1,4 +1,9 @@
 <style>
+
+        .barang{
+            display: flex;
+        }
+        
         .card{
             max-width: 180px;
             border: solid 1px #ccc;
@@ -8,6 +13,7 @@
             text-align: center;
             border-radius: 10px;
             background-color: #eef;
+
         }
 
         .card button {
