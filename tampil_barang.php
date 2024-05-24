@@ -24,7 +24,9 @@ if(mysqli_num_rows($q)) {
             <div>$d[nama_barang]</div>
             <img src='img/$d[gambar]' class='gambar'>
             <div>$d[harga_jual]</div>
-            <button>BELI</button>
+            <a href='order.php?kode_barang=$d[kode_barang]'>
+                <button>BELI</button>
+            </a>
             <button>HAPUS</button>
             <button>EDIT</button>
             <br>
@@ -32,7 +34,7 @@ if(mysqli_num_rows($q)) {
         ";
         // tambah barang
         echo "
-        <div class=card form-add>
+        <div class='card form-add'>
         <h3>TAMBAH BARANG</h3>
         <input type=text name=nama_barang placeholder='nama barang'>
         <input type=file name=gambar accept='.jpg, .png'>
