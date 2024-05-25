@@ -13,15 +13,14 @@
             text-align: center;
             border-radius: 10px;
             background-color: #eef;
+            display: grid;
+            gap: 3px;
+            justify-items: stretch;
+            align-content: space-evenly;
 
         }
 
-        .card button {
-            width: 100%;
-            margin-top: 15px;
-        }
-
-        .gambar {
+        .card img {
             max-height: 150px;
             max-width: 150px;
             border-radius: 10px;
@@ -29,8 +28,15 @@
             box-shadow: 0 0 5px grey;
         }
 
+        .card button {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+
+
         .form-order input,
-        .form-add input {
+        .form-add input,  {
             width: 100%;
             display: block;
             margin: 15px 0;
